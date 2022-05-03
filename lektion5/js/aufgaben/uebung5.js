@@ -9,6 +9,9 @@ function aufgabe1() {
   console.debug("Aufgabe 1 ==========================");
 
   //ToDo: füge ab hier Deinen Code ein
+  for(let i=1; i < 6; i++) {
+    console.log("Durchlauf Nummer:", i)
+  }
 }
 
 /**
@@ -20,8 +23,9 @@ function aufgabe2() {
   for(let i=1; i<6; i++) {
     if(i==3) {
       //ToDo: füge ab hier Deinen Code ein
+      break
     }
-    console.debug("Hallo Nummer: " + i)
+    console.debug("Durchlauf Nummer: " + i)
   }
 }
 
@@ -31,9 +35,11 @@ function aufgabe2() {
 function aufgabe3() {
   console.debug("Aufgabe 3 ==========================");
 
-  for(let i=5; i>0; i--) {
+  for(let i=6; i>0; i--) {
     //ToDo: füge ab hier Deinen Code ein
-    console.debug("Hallo Nummer: " + i)
+    if (i==3) {
+      continue}
+    console.debug("Durchlauf Nummer: " + i)
   }
 }
 
@@ -44,6 +50,14 @@ function aufgabe4() {
   console.debug("Aufgabe 4 ==========================")
 
   //ToDo: füge ab hier Deinen Code ein
+  for (let i = 1; i<= 3; i++){
+
+    for (let j = 1; j <=2; j++){
+      console.log("Zweite Schleife j:1")
+    }
+    console.log("Erste Schleife i:2")
+  }
+
 }
 
 /**
@@ -54,6 +68,8 @@ function aufgabe5() {
 
   let i=1
   //ToDo: füge ab hier Deinen Code ein
+  for(let i=1; i < 6; i++)
+  console.log(i)
 }
 
 /**
@@ -63,6 +79,9 @@ function aufgabe6() {
   console.debug("Aufgabe 6 ==========================");
 
   //ToDo: füge ab hier Deinen Code ein
+  let = 1
+  for(let i=1; i < 6; i++)
+    console.log(i)
 }
 
 /**
