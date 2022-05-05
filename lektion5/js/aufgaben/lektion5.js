@@ -45,7 +45,7 @@ function artikelEntfernen() {
     console.debug("gemueseGruppe vorher:", gemueseListe)
 
     for (let i = 0; i <=2 ; i++) {
-        gemueseListe.pop()
+        gemueseListe.splice(0,3)
     }
     return (console.debug("gemueseGruppe nachher:", gemueseListe))
 }
@@ -65,7 +65,7 @@ function sortieren() {
 
     console.debug("gruppenListe vorher:", gruppenListe)
 
-    for (const gruppenListeElement of gruppenListe) {
+    for (const gruppenListeElement of gruppenListe){
         gruppenListeElement.sort()
     }
     gruppenListe.sort()
