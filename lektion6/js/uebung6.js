@@ -84,12 +84,13 @@ function aufgabe6() {
 
   //ToDo: füge ab hier Deinen Code ein
   function fakultaet(a){
-    if (a <= 1) {
-      return 1
+       if (a <= 1) {
+       return 1
     }
-    else {
-      return a* fakultaet(a -1)
-    }
+
+        else {
+        return a* fakultaet(a -1)
+        }
 
   }
   console.debug(fakultaet(5))
