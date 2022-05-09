@@ -55,7 +55,7 @@ function gruppeEntfernen(gruppenName) {
         gruppenListe.splice(index, 1)
         console.debug("Gruppe", gruppenName, "wurde entfernt")
     } else {
-        console.debug("Gruppe", gruppenName, "konnte NICHT entfernt werden"
+        console.debug("Gruppe", gruppenName, "konnt NICHT entfernt werden"
         )
     }
 
