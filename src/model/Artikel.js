@@ -12,7 +12,7 @@ class Artikel {
   id = Artikel.counter++
   index
   name
-  gekauft = false
+  gekauft = true
 
   constructor(name, index) {
     this.name = name
@@ -20,4 +20,4 @@ class Artikel {
   }
 }
 
-export default Artikel
+export {Artikel}
